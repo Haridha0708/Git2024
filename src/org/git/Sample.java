@@ -6,8 +6,11 @@ public class Sample {
 	}
 	public void name() {
 		System.out.println("Name:Haridha");
-
 	}
+	public void depart() {
+		System.out.println("Department:Mathematics");
+	}
+	
 	public static void main(String[] args) {
 		Sample a = new Sample();
 		a.id();
